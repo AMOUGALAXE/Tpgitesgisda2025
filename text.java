@@ -32,4 +32,16 @@ public class text {
     public void setAge(int age) {
         this.age = age;
     }
+    public void afficher(){
+        System.out.println("le nom est:" +nom);
+        System.out.println("le prenom est:" +prenom;
+        System.out.println("l'age est:" +age);
+    }
+    public static void main(String[] arg){
+        text t1=new text("deeven","dev",30);
+        t1.getNom();
+        t1.getPrenom();
+        t1.getAge();
+                t1.afficher();
+    }
 }
