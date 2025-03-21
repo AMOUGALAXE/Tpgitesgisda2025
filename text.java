@@ -1,3 +1,5 @@
 public class text {
-    private nom;
+    private string nom;
+    private string prenom;
+    private  int age;
 }
