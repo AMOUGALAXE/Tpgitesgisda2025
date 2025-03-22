@@ -43,5 +43,7 @@ public class text {
         t1.getPrenom();
         t1.getAge();
         t1.afficher();
+        
+        
     }
 }
